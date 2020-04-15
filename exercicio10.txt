@@ -1,0 +1,9 @@
+programa {
+funcao inicio() {
+      real valor_depositado, valor_corrigido
+      escreva("Digite o valor depositado")
+      leia(valor_depositado)
+      valor_corrigido = (valor_depositado * 0.007 + valor_depositado)
+      escreva(valor_corrigido)
+}
+}
